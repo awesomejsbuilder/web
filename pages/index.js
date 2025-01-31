@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ParticlesContainer from "../components/ParticlesContainer";
+
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 import { motion } from "framer-motion";
@@ -62,7 +62,7 @@ const Home = () => {
           className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right 
         w-full h-full xl:bg-no-repeat absolute mix-blend-color-dodge translate-z-0"
         >   </div>
-          <ParticlesContainer/>
+       
           <motion.div
             variants={fadeIn("up", 0.5)}
             initial="hidden"
